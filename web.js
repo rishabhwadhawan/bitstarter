@@ -6,6 +6,7 @@ app.get('/', function(request, response) {
  fs.readFile('/index', function (err, data) {
  if (err) throw err;
  console.log(data);
+ buffer.toString();
 }});
 
 var port = process.env.PORT || 5000;
