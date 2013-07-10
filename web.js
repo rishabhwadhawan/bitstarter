@@ -6,7 +6,7 @@ app.get('/', function(request, response) {
  var buf = new Buffer(200);
  buf.write("Hello World from index.html", "utf8")
 
- buf.toString('utf8')
+console.log( buf.toString('utf8'))
 
  });
 
